@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class-8</title>
+</head>
+<body style="background-color: rgb(255, 255, 201);">
+    <h1>Registration Form</h1>
+    <form id="Registration Form">
+
+        <p>First Name:
+            <input required="required" type="text" name="FirstName" maxlength="30" minlength="3"/> </fontcolor> 
+        </p>
+        <p>Last Name:
+            <input required="required" type="text" name="LastName" maxlength="10" minlength="3"/>
+        </p>
+        <p>Password:
+            <input required="required" type="password" name="password" maxlength="30"/>
+        </p>
+        <p>Bio:
+            <textarea name="Bio" cols="20" rows="4"></textarea>
+        </p>
+        <fieldset>
+         
+        <legend>Gender:</legend>
+        <label><input type="radio" name="Gender" value="male">Male<br></label>
+        <label><input type="radio" name="Gender" value="female"/>female<br></label>
+        <label><input type="radio" name="Gender" value="other"/>Other<br></label>
+
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Interest:</legend>
+       <label> <input type="checkbox" name="Interest" value="music"/>Music <br></label>
+        <label><input type="checkbox" name="Interest" value="sports"/>Sports<br></label>
+       <label> <input type="checkbox" name="Interest" value="reading"/>Reading<br></label>
+    </fieldset>
+    <br>
+   Country:<select name="Contry">
+    <option value="United State Of America">United State</option>
+    <option value="Pakistan">Pakistan</option>
+    <option value="India">India</option>
+    <option value="Australia">Australia</option>
+    <option value="Canada">Canada</option>
+    <option value="Germany">Germany</option>
+    <option value="Japan">Japan</option>
+    <option value="Turkey">Turkey</option>
+    <option value="Saudi">Saudi</option>
+    <option value="United Arab Emirates">United Arab Emirates</option>
+    <option value="Qatar">Qatar</option>
+    <option value="New Zealand">New Zealand</option>
+    <option value="China">China</option>
+    <option value="England">England</option>
+    <option value="Oman">Oman</option>
+    </select><br><br>
+    
+    Preferred Color:<select name="PreferredColor" multiple="multiple">
+        <option value="Red">Red</option>
+        <option value="Blue">Blue</option>
+        <option value="Green">Green</option>
+        <option value="yellow">Yellow</option>
+    </select>
+    <br>
+    <p>Profile Picture:
+        <input type="file" accept="image/*">
+    </p>
+    <p>Birthdate:
+        <input type="date">
+    </p>
+    <p>Email:
+        <input type="email" name="email"/>
+    </p>
+    <p>Website:
+        <input type="url" name="website"/>
+    </p>
+    <p>Search:
+        <input type="search" name="Search"/>
+    </p>
+    <button type="submit">Submit</button>
+</body>
+</html>
